@@ -1,0 +1,97 @@
+!!=============================================================================
+!! RXVT-unicode setting
+!!=============================================================================
+!本地透明设置
+URxvt.transparent: true
+! URxvt.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt.shading: 30
+!设置字体分辨率
+Xft.dpi:96
+!设置字体
+URxvt.font:-misc-fixed-medium-r-normal--14-*-*-*-*-*-iso10646-1,xft:WenQuanYi Bitmap Song:size=10 
+!URxvt.font:xft:文泉驿等宽正黑:size=9:style=Regular:antialias=true,xft:文泉驿等宽正黑:size=8:style=Regular:antialias=true
+!URxvt.boldfont:xft:文泉驿等宽正黑:size=9:style=BOld:antialias=true,xft:文泉驿等宽正黑:size=8:style=Bold:antialias=true
+!URxvt.font: xft:courier 10 pitch:size=10
+
+URxvt.depth:32
+!输入法设置
+URxvt.inputMethod:ibus
+!颜色, 
+!Solarized-Dark http://www.github.com/altercation/vim-colors-solarized
+URxvt.background:#002B36
+URxvt.foreground:#839496
+URxvt.colorBD:#839496
+URxvt.colorUL:#839496
+URxvt.color0:#073642
+URxvt.color1:#DC322F
+URxvt.color2:#859900
+URxvt.color3:#B58900
+URxvt.color4:#268BD2
+URxvt.color5:#D33682
+URxvt.color6:#2AA198
+URxvt.color7:#EEE8D5
+!high-intensity colours
+URxvt.color8:#002B36
+URxvt.color9:#CB4B16
+URxvt.color10:#586E75
+URxvt.color11:#657B83
+URxvt.color12:#839496
+URxvt.color13:#6C71C4
+URxvt.color14:#93A1A1
+URxvt.color15:#FDF6E3
+
+!Solarized-Light
+!URxvt.background:#FDF6E3
+!URxvt.foreground:#657B83
+!URxvt.colorBD:#657B83
+!URxvt.colorUL:#839496
+!URxvt.color0:#073642
+!URxvt.color1:#DC322F
+!URxvt.color2:#859900
+!URxvt.color3:#B58900
+!URxvt.color4:#268BD2
+!URxvt.color5:#D33682
+!URxvt.color6:#2AA198
+!URxvt.color7:#EEE8D5
+!!high-intensity colours
+!URxvt.color8:#002B36
+!URxvt.color9:#CB4B16
+!URxvt.color10:#586E75
+!URxvt.color11:#657B83
+!URxvt.color12:#839496
+!URxvt.color13:#6C71C4
+!URxvt.color14:#93A1A1
+!URxvt.color15:#FDF6E3
+!滚动条
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating: False
+URxvt.scrollstyle:plain
+!屏幕缓冲
+URxvt.saveLines:10000
+URxvt.color12:DodgerBlue
+URxvt.menu:/etc/X11/rxvt.menu
+URxvt.preeditType:Root
+!Icon
+URxvt.iconFile:/usr/share/icons/gnome/16x16/apps/terminal.png
+!Set TERM
+URxvt.termName:xterm
+!Set browser
+URxvt.perl-ext-common:default,matcher
+URxvt.urlLauncher:chromium-browser
+URxvt.matcher.button:1
+!Tab support
+URxvt.perl-ext-common:  default,tabbed
+!Shorcut HELP
+!Shift+ ↓ new tab
+!Shift+ ← go to left tab
+!Shift+ → go to right tab
+!Ctrl+ ← move tab to the left
+!Ctrl+ → move tab to the right
+!Ctrl+D: close tab
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    3
+URxvt.tabbed.tab-bg:    0
+!窗口大小设置
+URxvt.geometry:300x100
